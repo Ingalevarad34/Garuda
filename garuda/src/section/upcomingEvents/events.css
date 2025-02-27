@@ -1,0 +1,78 @@
+/* Section Title */
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Event Card */
+.event-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 400px; /* Fixed card height */
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Media Container */
+.event-media {
+  position: relative;
+  width: 100%;
+  height: 220px; /* Fixed media height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f0f0;
+}
+
+/* Event Image */
+.event-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Event Video */
+.event-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Event Badge */
+.event-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #6c5ce7;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+/* Event Details */
+.event-details {
+  padding: 15px;
+  flex-grow: 1; /* Push content down to align consistently */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.event-date {
+  color: #6c5ce7;
+  font-weight: bold;
+}
+
+.event-location {
+  font-size: 14px;
+  color: gray;
+}

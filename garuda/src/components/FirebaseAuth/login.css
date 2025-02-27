@@ -1,0 +1,15 @@
+.login-bg{
+background-image: url("../../images/garuda/login-g2.webp");
+background-repeat: no-repeat;
+background-size: cover;
+/* background-color: yellow; */
+}
+
+.card-color{
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.btn-primary{
+    border: none;
+    background-color: #7848f4;
+}

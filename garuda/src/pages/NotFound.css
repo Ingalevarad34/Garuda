@@ -1,0 +1,112 @@
+/* Page Container */
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    padding: 15px 30px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .text-purple {
+    color: #6c5ce7;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav-btn {
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .signup {
+    background-color: #6c5ce7;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* 404 Content */
+  .not-found-content {
+    margin-top: 50px;
+  }
+  
+  .not-found-image {
+    width: 300px;
+    max-width: 100%;
+  }
+  
+  .not-found-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .not-found-content p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .btn-primary {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #6c5ce7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Social Links */
+  .social-links {
+    margin-top: 40px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #6c5ce7;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #4834d4;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

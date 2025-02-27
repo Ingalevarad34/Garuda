@@ -1,0 +1,95 @@
+/* Footer Container */
+.footer {
+    background: #0c0c74; /* Dark Blue */
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  /* Footer Content Wrapper */
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  /* Left Section - Logo & Info */
+  .footer-left {
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .text-primary {
+    color: #6c5ce7;
+  }
+  
+  /* Center Section - Navigation */
+  .footer-center {
+    text-align: left;
+  }
+  
+  .footer-center h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-center ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-center ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-center ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .footer-center ul li a:hover {
+    color: #6c5ce7;
+  }
+  
+  /* Right Section - Social Links */
+  .footer-right {
+    text-align: left;
+  }
+  
+  .footer-right h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #6c5ce7;
+  }
+  
+  /* Bottom Section */
+  .footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 10px;
+    font-size: 14px;
+  }
+  
