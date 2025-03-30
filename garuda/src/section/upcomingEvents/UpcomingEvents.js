@@ -196,12 +196,12 @@ const UpcomingEvents = () => {
       {/* Header */}
       <div className="d-flex justify-content-between align-items-center">
         <h2 className="section-title">
-          Upcoming <span className="text-color">Events</span>
+          Our <span className="text-color">Products</span>
         </h2>
 
         {/* Filters */}
-        <div className="d-flex gap-3">
-         
+        <div className="d-flex gap-3" style={{alignItems:"center"}}>
+         <div style={{width:"220px"}}>Select By Category</div>
 
           {/* Event Type Dropdown */}
           <select className="form-select" value={selectedCategory} onChange={(e) => setSelectedCategory(e.target.value)}>

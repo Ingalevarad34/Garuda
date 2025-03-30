@@ -1,0 +1,42 @@
+
+.event-form {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 12px;
+    background: white;
+  }
+  
+  h2 {
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  h4 {
+    font-weight: bold;
+    color: #6c757d;
+  }
+  
+  .form-label {
+    font-weight: 500;
+    color: #495057;
+  }
+  
+  .file-input {
+    border: 2px dashed #ced4da;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .custom-btn {
+    background-color: #6f42c1;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .custom-btn:hover {
+    background-color: #5a32a3;
+  }

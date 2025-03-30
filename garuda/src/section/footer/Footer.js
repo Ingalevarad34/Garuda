@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="footer-container">
         {/* Left Section - Logo & Description */}
         <div className="footer-left">
-          <h2 className="footer-logo">Garuda <span className="text-color">Event Management</span></h2>
+          <h2 className="footer-logo text-white">Garuda <span className="text-color">The Group Of Business</span></h2>
           <p>Your go-to platform for seamless event management.</p>
           <p><strong>Email:</strong> <a href="mailto:garudabusinessgroup@gmail.com">garudabusinessgroup@gmail.com</a></p>
           <p><strong>Contact:</strong> <a href="tel:+917028807933">+91 70288 07933</a></p>
@@ -40,7 +40,7 @@ const Footer = () => {
 
       {/* Bottom Section - Copyright */}
       <div className="footer-bottom">
-        <p>&copy; 2024 Garuda Event Management. All rights reserved.</p>
+        <p>&copy; 2024 Garuda The Group Of Business. All rights reserved.</p>
       </div>
     </footer>
   );

@@ -10,10 +10,10 @@ const HeroSection = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top">
                 <div className="container">
                     <a className="navbar-brand" href="/">
-                        <strong>Garuda <span className="text-purple">Event Management</span></strong>
+                        <strong>Garuda <span className="text-purple">The Group Of Business</span></strong>
                     </a>
                     <div className="ml-auto">
-                        <div><Link className="logout-color btn btn-primary ml-2" onClick={handleLogout}>
+                        <div><Link className="signup-btn btn btn-primary ml-2" onClick={handleLogout}>
                             Logout
                         </Link></div>
                     </div>
@@ -22,10 +22,10 @@ const HeroSection = () => {
 
             {/* Hero Background */}
             <div className="hero-background">
-                <div className="hero-overlay"></div>
-                <div className="hero-content text-center">
+                {/* <div className="hero-overlay"></div> */}
+                {/* <div className="hero-content text-center">
                     <h1 className="hero-title">Let's Go Up Together</h1>
-                </div>
+                </div> */}
             </div>
         </div>
     );

@@ -35,15 +35,15 @@ function Register() {
   };
 
   return (
-    <div className="container-fluid bg-white d-flex justify-content-center align-items-center vh-100 register-bg">
+    <div className="container-fluid bg-black d-flex justify-content-center align-items-center vh-100 register-bg">
       <div className="card card-color" style={{ width: "400px" }}>
         <div className="card-body">
-          <h3 className="card-title text-center mb-4 text-white">Sign Up</h3>
+          <h3 className="card-title text-center mb-4 text-black">Sign Up</h3>
 
           <form onSubmit={handleRegister}>
             {/* First Name Input */}
             <div className="mb-3">
-              <label htmlFor="fname" className="form-label text-white">First Name</label>
+              <label htmlFor="fname" className="form-label text-black">First Name</label>
               <input
                 type="text"
                 className="form-control"
@@ -56,7 +56,7 @@ function Register() {
 
             {/* Last Name Input */}
             <div className="mb-3">
-              <label htmlFor="lname" className="form-label text-white">Last Name</label>
+              <label htmlFor="lname" className="form-label text-black">Last Name</label>
               <input
                 type="text"
                 className="form-control"
@@ -69,7 +69,7 @@ function Register() {
 
             {/* Email Input */}
             <div className="mb-3">
-              <label htmlFor="email" className="form-label text-white">Email Address</label>
+              <label htmlFor="email" className="form-label text-black">Email Address</label>
               <input
                 type="email"
                 className="form-control"
@@ -82,7 +82,7 @@ function Register() {
 
             {/* Password Input */}
             <div className="mb-3">
-              <label htmlFor="password" className="form-label text-white">Password</label>
+              <label htmlFor="password" className="form-label text-black">Password</label>
               <input
                 type="password"
                 className="form-control"
@@ -102,8 +102,8 @@ function Register() {
 
             {/* Already Registered Link */}
             <div className="d-flex justify-content-between mt-3">
-              <p className="mb-0 text-white">
-                Already registered? <a href="/login" className="text-white">Login Here</a>
+              <p className="mb-0 text-black">
+                Already registered? <a href="/login" className="text-black">Login Here</a>
               </p>
             </div>
           </form>

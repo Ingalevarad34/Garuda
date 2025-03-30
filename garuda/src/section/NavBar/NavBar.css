@@ -1,0 +1,29 @@
+.navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .text-primary {
+    color: #7848f3 !important; /* Purple color */
+  }
+  
+  .signup-btn {
+    background-color: #7848f3;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .signup-btn:hover {
+    background-color: #5a32a3;
+  }
+
+  .navbar-main{
+    z-index: 1;
+    position: sticky;
+    top: 0;
+  }
+
+  .navbar{
+    z-index: 10;
+  }

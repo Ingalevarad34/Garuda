@@ -7,6 +7,9 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/ReactToastify.css";
 import { useState, useEffect } from "react";
 import { auth } from "./components/FirebaseAuth/firebase.js";
+import CreateFormEvent from "./section/createEvent/CreateFormEvent.js";
+import AboutUs from "./pages/aboutUs/aboutUs.js";
+import DmLights from "./pages/Dm Lights/DmLights.js";
 
 function App() {
   const [user, setUser] = useState(null);
@@ -33,7 +36,12 @@ function App() {
 
         {/* Home Route - Only accessible when logged in */}
         <Route path="/home" element={user ? <Home /> : <Navigate to="/login" />} />
-        
+
+        <Route path="/createformevent" element={<CreateFormEvent />} /> {/* Create Event Page */}
+
+        <Route path="/about" element={<AboutUs />} /> {/* About us Page */}
+        <Route path="/dmlights" element={<DmLights />} /> {/* Dm lights */}
+
       </Routes>
     </BrowserRouter>
   );

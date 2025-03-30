@@ -28,12 +28,12 @@ function Login() {
     <div className="container-fluid d-flex justify-content-center align-items-center vh-100 login-bg">
       <div className="card card-color" style={{ width: "400px" }}>
         <div className="card-body">
-          <h3 className="card-title text-white text-center mb-4">Login</h3>
+          <h3 className="card-title text-black text-center mb-4">Login</h3>
 
           <form onSubmit={handleSubmit}>
             {/* Email Input */}
             <div className="mb-3">
-              <label htmlFor="email" className="form-label text-white">Email address</label>
+              <label htmlFor="email" className="form-label text-black">Email address</label>
               <input
                 type="email"
                 className="form-control"
@@ -47,7 +47,7 @@ function Login() {
 
             {/* Password Input */}
             <div className="mb-3">
-              <label htmlFor="password" className="form-label text-white">Password</label>
+              <label htmlFor="password" className="form-label text-black">Password</label>
               <input
                 type="password"
                 className="form-control"
@@ -68,8 +68,8 @@ function Login() {
 
             {/* Forgot Password and Registration Link */}
             <div className="d-flex justify-content-between mt-3">
-              <p className="mb-0 text-white">
-                New user? <a href="/register" className="text-white">Register Here</a>
+              <p className="mb-0 text-black">
+                New user? <a href="/register" className="text-black">Register Here</a>
               </p>
               <p className="mb-0">
                 <a href="/forgot-password">Forgot Password?</a>
