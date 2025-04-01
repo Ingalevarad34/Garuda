@@ -1,105 +1,105 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./DmLights.css";
-import DmLightsImg from '../../images/garuda/dm.png';
+import "./Chintamani.css";
+import chintamaniImg from '../../images/garuda/chantamani.png';
 import Dm from '../../images/garuda/dm.png';
-import Maharaja from '../../images/garuda/maharaja.jpg';
+import Maharaj from '../../images/garuda/maharaja.jpg';
 import Chantamani from '../../images/garuda/chantamani.png';
 import Navbar from '../../section/NavBar/NavBar.js'
 import Footer from "../../section/footer/Footer.js";
 import { Link } from "react-router-dom";
-import dm1 from '../../images/garuda/events/dm-lights/dm1.jpg';
-import dm2 from '../../images/garuda/events/dm-lights/dm1.mp4';
-import dm3 from '../../images/garuda/events/dm-lights/dm2.jpg';
-import dm4 from '../../images/garuda/events/dm-lights/dm2.mp4';
-import dm5 from '../../images/garuda/events/dm-lights/dm3.jpg';
-import dm6 from '../../images/garuda/events/dm-lights/dm3.mp4';
+import art1 from '../../images/garuda/events/wall-arts/art1.jpg'
+import art2 from '../../images/garuda/events/wall-arts/art2.jpg'
+import art3 from '../../images/garuda/events/wall-arts/art3.jpg'
+import art4 from '../../images/garuda/events/wall-arts/art4.jpg'
+import art5 from '../../images/garuda/events/wall-arts/art5.jpg'
+import art6 from '../../images/garuda/events/wall-arts/art6.jpg'
 
-const DmLightEvents = [
+const ChintamaniArtEvents = [
     {
-        id: 1,
-        media: dm1, // Image
-        type: "image",
-        title: "BestSeller Book Bootcamp - Write, Market & Publish Your Book - Lucknow",
-        date: "Saturday, March 18, 9:30PM",
-        location: "ONLINE EVENT - Attend anywhere",
-        category: "Dm-Lights",
-    },
-    {
-        id: 2,
-        media: dm2, // Video
-        type: "video",
-        title: "Music Festival - Live Concert Night",
-        date: "Friday, April 12, 8:00PM",
-        location: "Mumbai, India",
-        category: "Dm-Lights",
-    },
-    {
-        id: 3,
-        media: dm3,
+        id: 13,
+        media: art1,
         type: "image",
         title: "Startup Networking Event - Meet Founders & Investors",
         date: "Monday, May 5, 6:00PM",
         location: "Bangalore, India",
-        category: "Dm-Lights",
+        category: "Chintamani-Wall-arts",
     },
     {
-        id: 4,
-        media: dm4,
-        type: "video",
-        title: "Startup Networking Event - Meet Founders & Investors",
-        date: "Monday, May 5, 6:00PM",
-        location: "Bangalore, India",
-        category: "Dm-Lights",
-    },
-    {
-        id: 5,
-        media: dm5,
+        id: 14,
+        media: art2,
         type: "image",
         title: "Startup Networking Event - Meet Founders & Investors",
         date: "Monday, May 5, 6:00PM",
         location: "Bangalore, India",
-        category: "Dm-Lights",
+        category: "Chintamani-Wall-arts",
     },
     {
-        id: 6,
-        media: dm6,
-        type: "video",
+        id: 15,
+        media: art3,
+        type: "image",
         title: "Startup Networking Event - Meet Founders & Investors",
         date: "Monday, May 5, 6:00PM",
         location: "Bangalore, India",
-        category: "Dm-Lights",
+        category: "Chintamani-Wall-arts",
+    },
+    {
+        id: 16,
+        media: art4,
+        type: "image",
+        title: "Startup Networking Event - Meet Founders & Investors",
+        date: "Monday, May 5, 6:00PM",
+        location: "Bangalore, India",
+        category: "Chintamani-Wall-arts",
+    },
+    {
+        id: 17,
+        media: art5,
+        type: "image",
+        title: "Startup Networking Event - Meet Founders & Investors",
+        date: "Monday, May 5, 6:00PM",
+        location: "Bangalore, India",
+        category: "Chintamani-Wall-arts",
+    },
+    {
+        id: 18,
+        media: art6,
+        type: "image",
+        title: "Startup Networking Event - Meet Founders & Investors",
+        date: "Monday, May 5, 6:00PM",
+        location: "Bangalore, India",
+        category: "Chintamani-Wall-arts",
     }
 ]
 
 const teamMembers = [
     { name: "DM Lights", image: Dm, link: "/dmlights" },
-    { name: "Maharaja Events", image: Maharaja, link: "/maharaja" },
+    { name: "Maharaja Events", image: Maharaj, link: "/maharaja" },
     { name: "Chintamani Wall Arts", image: Chantamani, link: "/chintamani" }
 ];
 
-const DmLights = () => {
+const ChintamaniEvents = () => {
     return (
         <>
             <Navbar />
-            <div className="dmlights-container">
+            <div className="chintamani-container">
                 {/* Hero Section */}
-                <div className="dmlights-hero">
-                    <img src={DmLightsImg} alt="About Us" className="dmlights-hero-image" />
-                    {/* <div className="dmlights-title">
+                <div className="chintamani-hero">
+                    <img src={chintamaniImg} alt="About Us" className="chintamani-hero-image" />
+                    {/* <div className="chintamani-title">
                     <h2 className="text-white">About Us</h2>
                     <p>Empowering events with seamless organization & participation.</p>
                 </div> */}
                 </div>
 
                 {/* Description */}
-                <div className="dmlights-content">
-                    <p className="dmlights-description">
-                        At DM Lights, we specialize in creating unforgettable light experiences through expertly crafted light shows and roadshows. Our mission is to illuminate events with stunning visual displays that captivate audiences and leave lasting memories. Whether it's a corporate event, wedding, concert, or public celebration, we transform ordinary spaces into extraordinary environments with our cutting-edge lighting technology and creative designs.
+                <div className="chintamani-content">
+                    <p className="chintamani-description">
+                        At Chintamani Wall Arts, we specialize in creating exquisite, custom-designed wall art that adds a divine touch to your living spaces. Our unique creations feature intricately carved metal frames, beautifully illuminated with background lighting, bringing a sophisticated and spiritual ambiance to your home or office.
 
-                        With years of experience in the industry, our team of lighting experts is dedicated to delivering the perfect ambiance for any occasion. We work closely with our clients to understand their vision, ensuring that each event is customized to exceed expectations. From concept to execution, we bring your ideas to life with precision and flair.
+                        Each piece of art is carefully crafted to meet the individual preferences of our customers, with a focus on featuring revered god idols, creating personalized masterpieces that resonate with peace and positivity. We understand that every space deserves a meaningful and enriching decor, which is why our wall arts are designed to be not just aesthetic, but also spiritually uplifting.
 
-                        DM Lights is more than just lighting; we’re passionate about creating atmospheres that resonate, energize, and inspire. Trust us to light up your next event with brilliance and style.
+                        Our team at Chintamani Wall Arts is committed to delivering quality craftsmanship, attention to detail, and exceptional customer satisfaction. Whether you’re looking to enhance your living room, temple room, or office, our wall art adds a sacred and elegant touch that inspires tranquility and devotion. Let us bring divine elegance to your space with our timeless creations.
                     </p>
                 </div>
 
@@ -111,7 +111,7 @@ const DmLights = () => {
                             {/* <img src={MissionIcon} alt="Mission Icon" className="icon-style" /> */}
                             <h2 className="mission-title">Mission</h2>
                             <p className="mission-text text-black">
-                                At DM Lights, our mission is to deliver extraordinary lighting experiences that elevate events and captivate audiences. Through innovative designs and state-of-the-art technology, we aim to create unforgettable moments that leave a lasting impression. We are committed to providing customized lighting solutions for every occasion, ensuring that each event is illuminated with precision, creativity, and excellence.
+                                At Chintamani Wall Arts, our mission is to craft personalized, divine wall art that enhances the beauty and spiritual essence of every space. We are committed to creating intricate, high-quality pieces featuring sacred idols and illuminated metal frames, tailored to our customers’ desires. Our goal is to bring peace, positivity, and elegance into homes and offices, one masterpiece at a time.
                             </p>
                         </div>
 
@@ -120,8 +120,7 @@ const DmLights = () => {
                             {/* <img src={VisionIcon} alt="Vision Icon" className="icon-style" /> */}
                             <h2 className="vision-title">Vision</h2>
                             <p className="vision-text text-black">
-                                Our vision is to be a leading provider of lighting solutions, recognized for transforming ordinary events into extraordinary experiences. We strive to push the boundaries of creativity and technology, continually setting new standards in the lighting industry. DM Lights envisions a future where our innovative lighting displays are a core element in bringing people together, inspiring awe, and enhancing the overall atmosphere of events worldwide.
-
+                                Our vision is to be the leading provider of custom wall art that combines spirituality and artistry, recognized for our exceptional craftsmanship and innovative designs. We aim to create timeless pieces that inspire devotion, tranquility, and a sense of sacredness in every space, making Chintamani Wall Arts a symbol of beauty, craftsmanship, and spiritual connection worldwide.
                             </p>
                         </div>
                     </div>
@@ -134,40 +133,42 @@ const DmLights = () => {
                     <div className="row text-center justify-content-center">
                         <div className="col-md-4">
                             <div className="values-card shadow-sm">
-                                <h4 className="text-black">Innovation</h4>
-                                <p>We embrace creativity, utilizing cutting-edge technology and design to bring extraordinary light experiences to every event.</p>
+                                <h4 className="text-black">Creativity</h4>
+                                <p>We design with passion, crafting each wall art piece with intricate details that reflect our client's spiritual and aesthetic preferences.</p>
                             </div>
                         </div>
                         <div className="col-md-4">
                             <div className="values-card shadow-sm">
                                 <h4 className="text-black">Quality</h4>
-                                <p>We uphold the highest standards of quality, ensuring every lighting display is flawlessly executed to create stunning visual experiences.</p>
+                                <p>We are committed to using the highest quality materials and craftsmanship, ensuring each piece is a lasting work of art that brings beauty and devotion to any space.</p>
                             </div>
                         </div>
                         <div className="col-md-4">
                             <div className="values-card shadow-sm">
-                                <h4 className="text-black">Integrity</h4>
-                                <p>We are committed to transparency, honesty, and trust, fostering lasting relationships with our clients and partners.</p>
+                                <h4 className="text-black">Spirituality</h4>
+                                <p>We believe in the power of art to connect the divine with the everyday. Our pieces are designed to inspire peace, devotion, and a deeper spiritual connection within your space.</p>
                             </div>
                         </div>
                         <div className="col-md-4">
                             <div className="values-card shadow-sm">
                                 <h4 className="text-black">Customer-Centricity</h4>
-                                <p>Our clients’ visions are at the heart of everything we do, ensuring we exceed expectations with every customized light display.</p>
+                                <p>Every wall art we create is tailored to our client's unique vision, ensuring their spiritual and design preferences are reflected in every piece.</p>
                             </div>
                         </div>
                         <div className="col-md-4">
                             <div className="values-card shadow-sm">
-                                <h4 className="text-black">Sustainability</h4>
-                                <p>We embrace environmentally responsible practices, ensuring long-term success for our business and the planet.</p>
+                                <h4 className="text-black">Innovation</h4>
+                                <p>We continually push the boundaries of design, combining traditional art with modern technology to create stunning illuminated metal frame artworks that stand out.</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
+
+
                 {/* Events Grid */}
                 <div className="row mt-4">
-                    {DmLightEvents.map((event) => (
+                    {ChintamaniArtEvents.map((event) => (
                         <div key={event.id} className="col-md-4 mt-4">
                             <div className="event-card">
                                 {/* Media Handling: Image or Video */}
@@ -195,8 +196,8 @@ const DmLights = () => {
                 </div>
 
                 {/* Team Section */}
-                <h2 className="dmlights-subtitle"><span className="text-highlight">Meet Our Business</span></h2>
-                <div className="dmlights-team">
+                <h2 className="chintamani-subtitle"><span className="text-highlight">Meet Our Business</span></h2>
+                <div className="chintamani-team">
                     {teamMembers.map((member, index) => (
                         <div key={index} className="team-member" style={{ cursor: "pointer" }}>
                             <Link to={member.link}>
@@ -215,4 +216,4 @@ const DmLights = () => {
     );
 };
 
-export default DmLights;
+export default ChintamaniEvents;

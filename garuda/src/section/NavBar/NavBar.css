@@ -27,3 +27,33 @@
   .navbar{
     z-index: 10;
   }
+
+  .cart-container {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .cart-icon {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .item-count {
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    background-color: #7848f3;
+    color: white;
+    font-size: 12px;
+    padding: 3px 7px;
+    border-radius: 50%;
+    display: none; /* Initially hidden */
+  }
+  
+  .cart-container .item-count.show {
+    display: block; /* Show when there are items in the cart */
+  }
+  

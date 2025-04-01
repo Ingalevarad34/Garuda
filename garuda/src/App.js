@@ -10,6 +10,10 @@ import { auth } from "./components/FirebaseAuth/firebase.js";
 import CreateFormEvent from "./section/createEvent/CreateFormEvent.js";
 import AboutUs from "./pages/aboutUs/aboutUs.js";
 import DmLights from "./pages/Dm Lights/DmLights.js";
+import Maharaja from "./pages/MaharajaEvents/Maharaja.js";
+import MaharajaEvents from "./pages/MaharajaEvents/Maharaja.js";
+import ChintamaniEvents from "./pages/Chintamani/Chintamani.js";
+import ContactUs from "./pages/ContactUs/ContactUs.js";
 
 function App() {
   const [user, setUser] = useState(null);
@@ -40,7 +44,14 @@ function App() {
         <Route path="/createformevent" element={<CreateFormEvent />} /> {/* Create Event Page */}
 
         <Route path="/about" element={<AboutUs />} /> {/* About us Page */}
+
         <Route path="/dmlights" element={<DmLights />} /> {/* Dm lights */}
+
+        <Route path="/maharaja" element={<MaharajaEvents />} /> {/* maharaja events */}
+
+        <Route path="/chintamani" element={<ChintamaniEvents />} /> {/* chintamani events */}
+
+        <Route path="/contactus" element={<ContactUs />} /> {/* Contact Us */}
 
       </Routes>
     </BrowserRouter>
