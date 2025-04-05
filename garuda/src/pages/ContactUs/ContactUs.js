@@ -7,7 +7,7 @@ import OurProjects from "../../section/project/OurProjects";
 const ContactUs = () => {
     return (
         <div className="contact-page">
-            <Navbar/>
+            <Navbar />
             {/* Header Section */}
             <div className="mt-5">
                 <div className="text-center">
@@ -35,14 +35,14 @@ const ContactUs = () => {
                     {/* Google Map */}
                     <div className="col-md-6">
                         <iframe
-                            title="Google Map"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.2293619611182!2d74.17248297521719!3d17.686621883252496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc23481386ff193%3A0x203ba8ca2e089e43!2sD%20P%20Bhosale%20College%20Koregaon!5e0!3m2!1sen!2sin!4v1743478405145!5m2!1sen!2sin"
-                            width="400"
-                            height="300"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d819.957513884977!2d74.17238827944837!3d17.68585593707651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1743743943778!5m2!1sen!2sin"
+                            width="600"
+                            height="450"
                             style={{ border: 0 }}
-                            allowFullScreen
+                            allowFullScreen=""
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
+                            title="Google Map"
                         ></iframe>
                     </div>
                 </div>
@@ -68,8 +68,8 @@ const ContactUs = () => {
                     </div>
                 </div>
             </div>
-            <OurProjects/>
-            <Footer/>
+            <OurProjects />
+            <Footer />
         </div>
     );
 };

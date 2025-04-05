@@ -14,6 +14,8 @@ import dm3 from '../../images/garuda/events/dm-lights/dm2.jpg';
 import dm4 from '../../images/garuda/events/dm-lights/dm2.mp4';
 import dm5 from '../../images/garuda/events/dm-lights/dm3.jpg';
 import dm6 from '../../images/garuda/events/dm-lights/dm3.mp4';
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+
 
 const DmLightEvents = [
     {
@@ -164,7 +166,8 @@ const DmLights = () => {
                         </div>
                     </div>
                 </div>
-
+                <div>Follow Us On<a href="https://www.instagram.com/dm_lights_koregaon?igsh=MWE5bWFkanphNnhuMg==" target="_blank" rel="noopener noreferrer"><FaInstagram  className="fs-4 ms-2 text-black"/></a>
+                </div>
                 {/* Events Grid */}
                 <div className="row mt-4">
                     {DmLightEvents.map((event) => (

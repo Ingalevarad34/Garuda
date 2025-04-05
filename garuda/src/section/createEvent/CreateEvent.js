@@ -22,7 +22,7 @@ const CreateEvent = () => {
         <div className="create-event-text">
           <h2 className="text-white">Make your own Event</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <button className="btn btn-primary" onClick={handleClick}>Create Events</button>
+          <button className="btn btn-primary" onClick={handleClick}>Create Orders</button>
         </div>
       </div>
     </div>

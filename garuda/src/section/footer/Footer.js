@@ -21,7 +21,7 @@ const Footer = () => {
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About Us</Link></li>
-            <li><Link to="/createformevent">Events</Link></li>
+            <li><Link to="/createformevent">Orders</Link></li>
             <li><Link to="/contactus">Contact</Link></li>
           </ul>
         </div>
@@ -30,10 +30,10 @@ const Footer = () => {
         <div className="footer-right">
           <h3>Follow Us</h3>
           <div className="social-icons">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+            {/* <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a> */}
+            {/* <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a> */}
+            <a href="https://www.instagram.com/garuda_the_group_of_business?igsh=MXd3eDdsbW5laWFwMQ==" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+            {/* <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a> */}
           </div>
         </div>
       </div>

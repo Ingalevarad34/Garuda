@@ -14,6 +14,8 @@ import art3 from '../../images/garuda/events/wall-arts/art3.jpg'
 import art4 from '../../images/garuda/events/wall-arts/art4.jpg'
 import art5 from '../../images/garuda/events/wall-arts/art5.jpg'
 import art6 from '../../images/garuda/events/wall-arts/art6.jpg'
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+
 
 const ChintamaniArtEvents = [
     {
@@ -164,7 +166,8 @@ const ChintamaniEvents = () => {
                     </div>
                 </div>
 
-
+                <div>Follow Us On<a href="https://www.instagram.com/chintamani_wall_art/?igsh=MWxoOG9rdTV4eXM2bQ%3D%3D#" target="_blank" rel="noopener noreferrer"><FaInstagram  className="fs-4 ms-2 text-black"/></a>
+                </div>
 
                 {/* Events Grid */}
                 <div className="row mt-4">

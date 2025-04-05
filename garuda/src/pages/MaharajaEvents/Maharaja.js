@@ -14,6 +14,8 @@ import mah3 from '../../images/garuda/events/maharaja/mah3.jpg'
 import mah4 from '../../images/garuda/events/maharaja/mah4.jpg'
 import mah5 from '../../images/garuda/events/maharaja/mah5.jpg'
 import mah6 from '../../images/garuda/events/maharaja/mah6.jpg'
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+
 
 const MaharajEvents = [
     {
@@ -160,7 +162,8 @@ const MaharajaEvents = () => {
                     </div>
                 </div>
 
-
+<div>Follow Us On<a href="https://www.instagram.com/maharaja_.events?igsh=MTU5YXI1djY4NHp3bg==" target="_blank" rel="noopener noreferrer"><FaInstagram  className="fs-4 ms-2 text-black"/></a>
+                </div>
                 {/* Events Grid */}
                 <div className="row mt-4">
                     {MaharajEvents.map((event) => (
